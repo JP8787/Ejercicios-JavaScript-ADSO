@@ -1,4 +1,4 @@
 const prompt = require('prompt-sync')();
 
-let nombre = prompt("Escribe tu nombre: ");
+let nombre = prompt("escribe tu nombre: ");
 console.log("Hola " + nombre);

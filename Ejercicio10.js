@@ -1,8 +1,8 @@
 const prompt = require('prompt-sync')();
 
-let numero = prompt("Escribe un número: ");
+let numero = prompt("escribe un número: ");
 numero = Number(numero);
 
-let esPar = numero % 2 === 0;
+let es_par = numero % 2 === 0;
 
-console.log(esPar);
+console.log(es_par);

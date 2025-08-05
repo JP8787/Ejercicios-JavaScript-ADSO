@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let numero = prompt("Escribe un número de dos dígitos: ");
+let numero = prompt("escribe un numero de dos digitos: ");
 numero = Number(numero);
 
 let decenas = Math.floor(numero / 10);
